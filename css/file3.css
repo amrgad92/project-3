@@ -1,0 +1,333 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.parent
+{
+    background-image: url('image/slider-01.jpg');
+    background-size:cover;
+    width: 100%;
+    height: 620px;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.childx
+{
+    width: 75%;
+    text-align: center;
+    opacity: 0;
+    transition: 2s opacity;
+}
+.parent:hover .childx
+{
+    opacity: 1;
+}
+
+
+
+
+.child
+{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 620px;
+    opacity: 0.7;
+}
+.parent3
+{
+    width: 100%;
+    background-color: #f1f1f1;
+    overflow: auto;
+    padding: 50px 0px 50px 0px;
+}
+.child3
+{
+    text-align: center;
+    width: 40%;
+    margin: 40px auto;
+}
+.parent3 .line
+{
+    margin:5px auto;
+    background-color: red;
+    width: 100px;
+    height: 1px;
+}
+.parent3 .line2
+{
+    background-color: red;
+    margin: 5px auto;
+    width: 200px;
+    height: 1px;
+}
+.son3
+{
+    margin: auto;
+    overflow: auto;
+    width: 95%;
+}
+.son3_1
+{
+    width: 25%;
+    text-align: center;
+    float: left;
+    border: solid 3px #f1f1f1;
+
+}
+.logo
+{
+    width: 20%;
+}
+.num2
+{
+    background-color: white;
+}
+.child4
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+ul li
+{
+    display: inline-block;
+    margin: 0px 5px 0px 5px;
+}
+.child5
+{
+    margin: auto;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+}
+.child5_1
+{
+    width: 30%;
+    margin: 1rem;
+}
+.logo5
+{
+    width: 100%;
+    opacity: 0.8;
+}
+.child5_1:hover .logo5
+{
+    opacity: 1;
+    transform: scale(1.1,1.1);
+}
+
+.child6
+{
+    margin: auto;
+    text-align: left;
+    width: 60%;
+    height: 300px;
+    background-color:#f1f1f1;
+    overflow: auto;
+    border-radius: 10px;
+    border: solid 1px rgb(243, 149, 149);
+    position: relative;
+}
+.child6_1
+{
+    width: 20%;
+    float: left;
+    border-radius: 50%;
+    font-style: italic;
+    position: relative;
+    top: 25px;
+    left: 15px;
+}
+.logo6
+{
+    width: 90%;
+    border-radius: 50%;
+    vertical-align: top;
+    border: solid 1px rgb(243, 149, 149);
+}
+.num3
+{
+    width: 70%;
+}
+.num4
+{
+    width: 100%;
+    background-color:#f1f1f1;
+}
+.child7
+{
+    margin: auto;
+    width: 95%;
+    overflow: auto;
+}
+.child7_1
+{
+    width: 33.3333%;
+    float: left;
+    padding: 10px;
+}
+.finallogo
+{
+    width: 100%;
+}
+.parent2
+{
+    width: 100%;
+    position: relative;
+    height: 550px;
+}
+.amr
+{
+    width: 25%;
+    position: absolute;
+    top: 70px;
+    left: 120px;
+    border: solid 6px rgb(97, 97, 97);
+    border-radius: 7px;
+}
+.asmaa
+{
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+.shaimaa
+{
+    width: 40%;
+    position: absolute;
+    top: 100px;
+    right: 150px;
+}
+.cv
+{
+    width: 100%;
+    opacity: 0;
+}
+.cv2
+{
+    width: 100%;
+    border-radius: 7px;
+}
+table td
+{
+    width: 20%;
+}
+button
+{
+    background-color: rgb(241, 88, 88);
+    border: solid 2px white;
+    border-radius: 5px;
+    color: white;
+    width: 120px;
+    height: 40px;
+}
+.rating
+{
+    overflow: auto;
+}
+.rate
+{
+    width: 20px;
+    float: left;
+}
+.logorate
+{
+    width: 100%;
+}
+.child8
+{
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+
+}
+.data
+{
+    margin: 20px;
+    width: 40%;
+    height: 35px;
+    border: solid 1px rgb(228, 115, 115);
+    border-radius: 3px;
+}
+.one
+{
+    width: 87%;
+}
+.two
+{
+    width: 87%;
+    height: 15%;
+    text-align: left;
+}
+.nave
+{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    width: 50%;
+    z-index: 999999;
+    float: left;
+    text-align: right;
+}
+.na
+{
+    background-color:#333333;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+.ma
+{
+    width: 20%;
+    margin: auto;
+    overflow: auto;
+    padding: 10px;
+}
+.m
+{
+    width: 25%;
+    border-radius: 50%;
+    background-color: #333333;
+    float: left;
+    padding: 3px;
+}
+.social
+{
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
+.sqr
+{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(235, 83, 83);
+    position: absolute;
+    right: 85%;
+    bottom:70%;
+    transform: rotate(45deg);
+}
+.family
+{
+    width: 25%;
+    position: absolute;
+    border: solid 2px black;
+}
+}
+.asmaa2
+{
+    background-color: rgb(63, 49, 22);
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    z-index: 55555;
+}
